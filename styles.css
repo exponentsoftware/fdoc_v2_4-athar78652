@@ -1,0 +1,151 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .nav-menu li {
+    margin-right: 10px;
+  }
+  
+  .search-form input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .search-form button[type="submit"] {
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Main content styles */
+  main {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .blog-posts {
+    flex: 2;
+  }
+  
+  .post-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-card img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .post-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .post-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    flex: 1;
+    margin-left: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .popular-posts h2,
+  .author-bio h2,
+  .social-media h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .popular-posts ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .popular-posts li {
+    margin-bottom: 5px;
+  }
+  
+  .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .footer-menu li {
+    margin-right: 10px;
+  }
+  
+  .footer-menu li a {
+    color: #fff;
+  }
+  
